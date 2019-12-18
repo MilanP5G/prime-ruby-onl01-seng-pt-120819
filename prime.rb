@@ -1,10 +1,9 @@
 # Add  code here!
 def prime?
-  range = (-1..2)
-  if range < 2
+  for d in 2..(n - 1)
+   if (n % d) == 0
     return false
-  else
-    return true
-end
+   end
+  end
   
   
