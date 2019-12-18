@@ -2,7 +2,7 @@
 def prime?(number)
   
   return false if number < 2
-  (2..number).each {|n| return false if number % n == 0}
+  (2..number).each { |i| return false if num % i == 0}
   true
    
 end 
