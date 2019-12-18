@@ -1,8 +1,11 @@
 # Add  code here!
 def prime?(number)
   
-  if number < 2
-    return false
+  if Prime.prime?(number)
+   return true
+  else
+   return false
+  end
    
 end 
     
